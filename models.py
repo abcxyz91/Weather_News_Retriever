@@ -4,7 +4,7 @@ from tabulate import tabulate
 
 class Weather:
     """ Setup class constant """
-    API_KEY = "46b78e53965e6f79dafc43714e8217b5"
+    API_KEY = "YOUR API KEY HERE"
     BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 
@@ -56,7 +56,7 @@ class Weather:
 
 class News:
     """ Setup class constant """
-    API_KEY = "09fdc31ad6344eeaa2c69731293be83d"
+    API_KEY = "YOUR API KEY HERE"
     BASE_URL = "https://newsapi.org/v2/top-headlines?country=us"
 
     VALID_CATEGORY = ["business", "entertainment", "health", "science", "sports", "technology"]
